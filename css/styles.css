@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  background: #bacecb;
+  color: #ffffff;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  display: flex;
+  justify-content: center; /* Zentriert die Elemente horizontal */
+  align-items: center; /* Zentriert die Elemente vertikal */
+}
+
+.portrait {
+  display: flex;
+  align-items: center; /* Zentriert das Bild vertikal */
+  flex: 1;
+}
+
+.facts {
+  margin-left: 20px; /* Abstand zwischen dem Bild und dem Text */
+  flex-direction: 2;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.profession {
+  position: relative;
+  margin: 20px 10%;
+  border: 4px solid #479d90;
+  padding: 3% 10%;
+  scroll-margin-top: 100px;
+  border-radius: 2rem;
+}
+
+.contact {
+  position: relative;
+  margin: 20px 10%;
+  border: 4px solid #479d90;
+  padding: 3% 10%;
+  scroll-margin-top: 100px;
+  border-radius: 2rem;
+}
