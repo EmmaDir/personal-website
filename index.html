@@ -3,26 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Emma Dirscherl</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <ul class="nav">
-        <li class="link"><a href="#">Biography</a></li>
-        <li class="link"><a href="#">Contact</a></li>
+        <li class="link"><a href="#profession">Biography</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
       </ul>
     </header>
 
     <main>
       <section class="intro">
         <figure class="portrait">
-          <img src="Portrait%20Emma.png" alt="Picture of me" height="250px" />
+          <img src="Portrait%20Emma.png" alt="Picture of me" height="450px" />
           <figcaption>
-            <h1>Emma Dirscherl</h1>
+            <h1>Emma<br />Dirscherl</h1>
             <section class="facts">
               <h2>About Me</h2>
-              <ul>
+              <ul class="interests">
                 <li>Aspiring web developer 📻</li>
                 <li>Filmmaker 🎬</li>
                 <li>Cat lover 😸</li>
@@ -36,11 +36,11 @@
         </section>
       </section>
 
-      <section class="profession">
+      <section class="profession" id="profession">
         <h2>Professional background</h2>
         <table class="cv">
           <tr>
-            <td><b>Mai - August 2024</b></td>
+            <td width="300px"><b>Mai - August 2024</b></td>
             <td>Web Development Bootcamp at neue fische</td>
           </tr>
           <tr>
@@ -58,32 +58,36 @@
         </table>
       </section>
 
-      <section class="contact">
-        <h2 class="contact_me">Contact Me</h2>
-        <figure class="icon github">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-            alt="GitHub Logo"
-            height="100px"
-          />
-          <figcaption>EmmaDir</figcaption>
-        </figure>
-        <figure class="icon instagram">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
-            alt="Instagram Logo"
-            height="100px"
-          />
-          <figcaption>_e.m.m.a_02</figcaption>
-        </figure>
-        <figure class="icon gmail">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
-            alt="Gmail Logo"
-            height="100px"
-          />
-          <figcaption>emma.dirscherl@gmail.com</figcaption>
-        </figure>
+      <section class="contact" id="contact">
+        <section class="top-element">
+          <h2 class="contact_me">Contact</h2>
+        </section>
+        <section class="bottom-elements">
+          <figure>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              alt="GitHub Logo"
+              height="100px"
+            />
+            <figcaption>EmmaDir</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+              alt="Instagram Logo"
+              height="100px"
+            />
+            <figcaption>_e.m.m.a_02</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
+              alt="Gmail Logo"
+              height="100px"
+            />
+            <figcaption>emma.dirscherl@gmail.com</figcaption>
+          </figure>
+        </section>
       </section>
     </main>
   </body>
