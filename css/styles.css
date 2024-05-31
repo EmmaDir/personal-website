@@ -7,7 +7,7 @@
 header {
   background: #bacecb;
   color: #ffffff;
-  height: 50px;
+  height: 65px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   padding: 10px;
   position: fixed;
@@ -15,6 +15,16 @@ header {
   left: 0;
   width: 100%;
   z-index: 1;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+body {
+  margin-top: 55px;
+  font-size: 1.5rem;
 }
 
 .nav {
@@ -25,41 +35,80 @@ header {
   padding: 0;
 }
 
+.nav a {
+  margin: 45px;
+  color: white;
+  text-decoration: none;
+}
+
 .intro {
   display: flex;
   justify-content: center; /* Zentriert die Elemente horizontal */
   align-items: center; /* Zentriert die Elemente vertikal */
+  position: relative;
 }
 
 .portrait {
   display: flex;
   align-items: center; /* Zentriert das Bild vertikal */
+  margin-left: 15%;
   flex: 1;
 }
 
 .facts {
-  margin-left: 20px; /* Abstand zwischen dem Bild und dem Text */
   flex-direction: 2;
+  margin-left: 50px;
+}
+
+.interests {
+  list-style-type: square;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
+  margin-left: 50px;
+  line-height: 1;
 }
 
 .profession {
   position: relative;
   margin: 20px 10%;
-  border: 4px solid #479d90;
+  border: 4px double #479d90;
   padding: 3% 10%;
   scroll-margin-top: 100px;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .contact {
+  display: flex;
   position: relative;
   margin: 20px 10%;
-  border: 4px solid #479d90;
+  border: 4px double #479d90;
   padding: 3% 10%;
   scroll-margin-top: 100px;
-  border-radius: 2rem;
+  border-radius: 1rem;
+}
+
+.contact figure {
+  text-align: center;
+}
+
+.contact figcaption {
+  display: block;
+  margin-top: 10px; /* Abstand zwischen Bild und Beschriftung */
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-element {
+  order: -1; /* Das erste Element nach oben verschieben */
+}
+
+.bottom-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
