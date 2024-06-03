@@ -43,14 +43,14 @@ body {
 
 .intro {
   display: flex;
-  justify-content: center; /* Zentriert die Elemente horizontal */
-  align-items: center; /* Zentriert die Elemente vertikal */
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
 
 .portrait {
   display: flex;
-  align-items: center; /* Zentriert das Bild vertikal */
+  align-items: center;
   margin-left: 15%;
   flex: 1;
 }
@@ -95,7 +95,7 @@ h1 {
 
 .contact figcaption {
   display: block;
-  margin-top: 10px; /* Abstand zwischen Bild und Beschriftung */
+  margin-top: 10px;
 }
 
 .contact {
@@ -104,7 +104,7 @@ h1 {
 }
 
 .top-element {
-  order: -1; /* Das erste Element nach oben verschieben */
+  order: -1;
 }
 
 .bottom-elements {
