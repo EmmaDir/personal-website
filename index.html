@@ -7,34 +7,34 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <ul class="nav">
-        <li class="link"><a href="#profession">Biography</a></li>
-        <li class="link"><a href="#contact">Contact</a></li>
+    <nav class="header">
+      <ul class="header__navbar">
+        <li><a href="#profession" class="header__link">Biography</a></li>
+        <li><a href="#contact" class="header__link">Contact</a></li>
       </ul>
-    </header>
+    </nav>
 
     <main>
       <section class="intro">
-        <figure class="portrait">
+        <figure class="intro__portrait">
           <img src="Portrait%20Emma.png" alt="Picture of me" height="450px" />
           <figcaption>
             <h1>Emma<br />Dirscherl</h1>
-            <section class="facts">
-              <h2>About Me</h2>
-              <ul class="interests">
+            <div class="interests">
+              <h2 class="interests__title">About Me</h2>
+              <ul class="interests__list">
                 <li>Aspiring web developer 📻</li>
                 <li>Filmmaker 🎬</li>
                 <li>Cat lover 😸</li>
               </ul>
-            </section>
+            </div>
           </figcaption>
         </figure>
       </section>
 
       <section class="profession" id="profession">
-        <h2>Professional background</h2>
-        <table class="cv">
+        <h2 class="profession__title">Professional background</h2>
+        <table class="profession__table">
           <tr>
             <td width="300px"><b>Mai - August 2024</b></td>
             <td>Web Development Bootcamp at neue fische</td>
@@ -55,35 +55,37 @@
       </section>
 
       <section class="contact" id="contact">
-        <section class="top-element">
-          <h2 class="contact_me">Contact</h2>
-        </section>
-        <section class="bottom-elements">
-          <figure>
+        <div class="contact__top">
+          <h2 class="contact__title">Contact</h2>
+        </div>
+        <div class="contact__bottom">
+          <figure class="contact__logo">
             <img
               src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
               alt="GitHub Logo"
               height="100px"
             />
-            <figcaption>EmmaDir</figcaption>
+            <figcaption class="contact__logo-text">EmmaDir</figcaption>
           </figure>
-          <figure>
+          <figure class="contact__logo">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
               alt="Instagram Logo"
               height="100px"
             />
-            <figcaption>_e.m.m.a_02</figcaption>
+            <figcaption class="contact__logo-text">_e.m.m.a_02</figcaption>
           </figure>
-          <figure>
+          <figure class="contact__logo">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
               alt="Gmail Logo"
               height="100px"
             />
-            <figcaption>emma.dirscherl@gmail.com</figcaption>
+            <figcaption class="contact__logo-text">
+              emma.dirscherl@gmail.com
+            </figcaption>
           </figure>
-        </section>
+        </div>
       </section>
     </main>
   </body>

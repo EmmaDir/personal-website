@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-header {
+.header {
   background: #bacecb;
   color: #ffffff;
   height: 65px;
@@ -27,7 +27,7 @@ body {
   font-size: 1.5rem;
 }
 
-.nav {
+.header__navbar {
   display: flex;
   justify-content: end;
   list-style-type: none;
@@ -35,7 +35,7 @@ body {
   padding: 0;
 }
 
-.nav a {
+.header__link {
   margin: 45px;
   color: white;
   text-decoration: none;
@@ -48,19 +48,19 @@ body {
   position: relative;
 }
 
-.portrait {
+.intro__portrait {
   display: flex;
   align-items: center;
   margin-left: 15%;
   flex: 1;
 }
 
-.facts {
+.interests {
   flex-direction: 2;
   margin-left: 50px;
 }
 
-.interests {
+.interests__list {
   list-style-type: square;
 }
 
@@ -81,6 +81,7 @@ h1 {
 
 .contact {
   display: flex;
+  flex-direction: column;
   position: relative;
   margin: 20px 10%;
   border: 4px double #479d90;
@@ -89,25 +90,20 @@ h1 {
   border-radius: 1rem;
 }
 
-.contact figure {
+.contact__logo {
   text-align: center;
 }
 
-.contact figcaption {
+.contact__logo-text {
   display: block;
   margin-top: 10px;
 }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-}
-
-.top-element {
+.contact__top {
   order: -1;
 }
 
-.bottom-elements {
+.contact__bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
